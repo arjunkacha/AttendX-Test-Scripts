@@ -32,3 +32,9 @@ python -m unittest attendance_marking_test.py -v
 
 ## Version Control
 Git tracks changes to the test scripts, and GitHub stores the repository for collaboration among QA team members.
+
+## Team Collaboration
+
+GitHub is used as the remote repository for sharing test scripts.
+Team members should pull the latest changes before starting work
+and commit their updates with meaningful messages.
