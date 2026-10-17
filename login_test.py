@@ -20,6 +20,9 @@ class LoginTests(unittest.TestCase):
     def test_login_with_empty_credentials(self):
         self.assertFalse(login("", ""))
 
+    def test_login_with_wrong_username(self):
+        self.assertFalse(login("wronguser", "AttendX@123"))
+
 
 if __name__ == "__main__":
     unittest.main()
